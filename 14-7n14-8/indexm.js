@@ -33,11 +33,11 @@ function App(){
     }
     return(<>
         {todos.map((todo, i) => 
-            <div className="input" key={i} id={i} onClick={removeTodo}> {todo.text}</div> )}
+            <div className="todo" key={i} id={i} onClick={removeTodo}> {todo.text}</div> )}
         <form onSubmit={handleSubmit}>
             <input
                 type="text"
-                className="input"ß
+                className="input"
                 value={value}
                 placeholder="Add Todo..."
                 onChange={e => setValue(e.target.value)}

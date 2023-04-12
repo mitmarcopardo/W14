@@ -3,10 +3,11 @@ body{
     font-family: 'Arial';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #209cee;
 }
 
 code {
-    font-family: Arial;
+    font-family: 'Arial';
 }
 
 .app{
@@ -23,8 +24,8 @@ code {
 }
 
 .todo{
-    background: #fff;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    background: #2cdd1f;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.744);
     padding: 3px 10px;
     font-size: 24px;
     margin-bottom: 6px;
